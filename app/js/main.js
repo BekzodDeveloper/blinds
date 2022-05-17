@@ -10,6 +10,13 @@
 //       .forEach((item) => {
 //         item.classList.remove("accordion__item--active");
 //       });
-//     }
+//     }///
 //   });
 // });
+
+$(".features__slider").slick({
+  dots: true,
+  speed: 500,
+  fade: true,
+  cssEase: "linear",
+});
